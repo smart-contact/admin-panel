@@ -1,0 +1,24 @@
+{
+    "name": "smart-contact/admin-panel",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Andrea Ortu",
+            "email": "andrea.ortu@smart-contact.it"
+        },
+        {
+            "name": "Matteo Meloni",
+            "email": "matteo.meloni@smart-contact.it"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SmartContact\\AdminPanel\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
